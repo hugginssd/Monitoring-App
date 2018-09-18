@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Patrol</string>
+    <string name="btn_start_tour">Start Tour</string>
+    <string name="btn_mme">mme</string>
+    <string name="btn_test">test</string>
+    <string name="btn_sos">sos</string>
+    <string name="btn_incident">incident</string>
+    <string name="btn_end_patrol_tour">end patrol tour</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="last_position_update_14_05_18_5_21_pm_gmt_2_acc_1002m">Last position update: 14/05/18 5:21 PM GMT+2 acc: 1002m</string>
+    <string name="last_update">Last update :</string>
+    <string name="s_o_s">S.O.S</string>
+    <string name="nav_home">Home</string>;
+    <string name="nav_app">MME</string>
+    <string name="nav_nof">SOS</string>
+    <string name="nav_charts">Incidents</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorAccent">#F1F5F8</color>
+    <color name="azur">#F1F5F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="greendark">#248E50</color>
+    <color name="colorAccentt">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTransparency">#80FFFFFF</color>
+    <color name="backgroundcolor">#FCFCFC</color>
+    <color name="backgray">#EDF3FF</color>
+    <color name="colorAccen">#F1F5F8</color>
+    <color name="gray">#EDEDED</color>
+    <color name="graylight">#FAFAFA</color>
+    <color name="deeppurple">#7C4DFF</color>
+    <color name="yellow">#FFB300</color>
+    <color name="green">#00BFA5</color>
+    <color name="azurr">#F1F5F8</color>
+    <color name="whitee">#FFFFFF</color>
+    <color name="startblue">#09C6DF</color>
+    <color name="endblue">#0BCCE6</color>
+    <color name="greenb">#09C6DF</color>
+    <color name="mme">#EEDB27</color>
+    <color name="start_tour">#6DAE33</color>
+    <color name="test">#F18823</color>
+    <color name="sos">#E79692</color>
+    <color name="incident">#F0F0F0</color>
+    <color name="end_patrol_tour">#5689C3</color>
+    <color name="black">#323232</color>
+</resources>

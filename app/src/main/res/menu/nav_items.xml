@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+    <item
+        android:icon="@drawable/ic_appoint"
+        android:title="@string/nav_app" />
+    <item
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/nav_nof" />
+    <item
+        android:icon="@drawable/ic_errorr"
+        android:title="@string/nav_charts" />
+</menu>

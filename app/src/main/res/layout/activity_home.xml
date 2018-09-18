@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/txtv_lastupdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/last_position_update_14_05_18_5_21_pm_gmt_2_acc_1002m"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:enabled="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginRight="1dp"
+                    android:text="@string/last_update"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/s_o_s"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_start_tour"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/buttontextstyle"
+                    android:text="@string/btn_start_tour" />
+
+                <Button
+                    android:id="@+id/btn_mme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/mmebuttonstyle"
+                    android:text="@string/btn_mme" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_test"
+                    android:layout_width="99dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/testbuttontextstyle"
+                    android:text="@string/btn_test" />
+
+                <Button
+                    android:id="@+id/btn_sos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="79dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/sosbuttontextstyle"
+                    android:text="@string/btn_sos" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="84dp"
+                android:layout_margin="1dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_incident"
+                    android:layout_width="159dp"
+                    android:layout_height="74dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/incidentbuttontextstyle"
+                    android:text="@string/btn_incident" />
+
+                <Button
+                    android:id="@+id/btn_end_patrol_tour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="74dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/endpatroltourbuttontextstyle"
+                    android:text="@string/btn_end_patrol_tour" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="57dp"-->
+        <!--android:layout_marginBottom="2dp"-->
+        <!--android:layout_marginTop="10dp">-->
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/colorAccen"
+        app:itemTextColor="@color/colorAccen"
+        app:menu="@menu/nav_items">
+
+    </android.support.design.widget.BottomNavigationView>
+    <!--</LinearLayout>-->
+</RelativeLayout>
