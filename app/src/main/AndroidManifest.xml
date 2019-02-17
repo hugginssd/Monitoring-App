@@ -39,7 +39,8 @@
         <activity android:name=".IncidentsActivity" />
         <activity android:name=".MultimediaActivity" />
         <activity android:name=".TourActivity" />
-        <activity android:name=".HomeActivity"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SOSActivity"></activity>
     </application>
 
 </manifest>

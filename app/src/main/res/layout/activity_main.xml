@@ -19,7 +19,7 @@
             android:text="Patrol"
             android:textColor="@color/white"
             android:textAlignment="center"
-            android:textSize="31dp" />
+            android:textSize="31sp" />
 
 
     </LinearLayout>
